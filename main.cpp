@@ -403,7 +403,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"dns1.mero.network", ""};
+static const string mainnet_seeds[] = {"dns1.mero.network", "dns2.mero.network", ""};
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
